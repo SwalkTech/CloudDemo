@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="86cf5bf3-46ce-49a9-8a5d-d6230c598484" name="更改" comment="init">
+      <change afterPath="$PROJECT_DIR$/cloud-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/swalktech/cloud/cloudcommon/CloudCommonApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/swalktech/cloud/cloudcommon/apis/AccountFeignApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/swalktech/cloud/cloudcommon/apis/PayFeignApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/swalktech/cloud/cloudcommon/apis/PayFeignSentinelApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/swalktech/cloud/cloudcommon/apis/PayFeignSentinelFallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/swalktech/cloud/cloudcommon/apis/StorageFeignApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/swalktech/cloud/cloudcommon/entities/PayDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/swalktech/cloud/cloudcommon/enumerate/ReturnCodeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/swalktech/cloud/cloudcommon/function/BeanCopyCallBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/swalktech/cloud/cloudcommon/handler/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/swalktech/cloud/cloudcommon/util/BeanCopyUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/swalktech/cloud/cloudcommon/util/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-common/src/test/java/com/swalktech/cloud/cloudcommon/CloudCommonApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/swalktech/cloud/cloudconsumerfeignorder80/CloudConsumerFeignOrder80Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/swalktech/cloud/cloudconsumerfeignorder80/apis/PayFeignApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/test/java/com/swalktech/cloud/cloudconsumerfeignorder80/CloudConsumerFeignOrder80ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-order8000/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-order8000/src/main/java/com/swalktech/cloud/cloudconsumerorder8000/CloudConsumerOrder8000Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-order8000/src/main/java/com/swalktech/cloud/cloudconsumerorder8000/config/RestTemplateConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-order8000/src/main/java/com/swalktech/cloud/cloudconsumerorder8000/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-order8000/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-order8000/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-order8000/src/test/java/com/swalktech/cloud/cloudconsumerorder8000/CloudConsumerOrder8000ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/swalktech/cloud/cloudproviderpayment8001/CloudProviderPayment8001Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/swalktech/cloud/cloudproviderpayment8001/controller/PayCircuitController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/swalktech/cloud/cloudproviderpayment8001/controller/PayController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/swalktech/cloud/cloudproviderpayment8001/controller/PayGatewayController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/swalktech/cloud/cloudproviderpayment8001/controller/PayMicrometerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/swalktech/cloud/cloudproviderpayment8001/mapper/PayMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/swalktech/cloud/cloudproviderpayment8001/pojo/Pay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/swalktech/cloud/cloudproviderpayment8001/service/PayService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/swalktech/cloud/cloudproviderpayment8001/service/serviceImpl/PayServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/test/java/com/swalktech/cloud/cloudproviderpayment8001/CloudProviderPayment8001ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/swalktech/cloud/cloudproviderpayment8002/CloudProviderPayment8002Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/swalktech/cloud/cloudproviderpayment8002/controller/PayCircuitController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/swalktech/cloud/cloudproviderpayment8002/controller/PayController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/swalktech/cloud/cloudproviderpayment8002/controller/PayGatewayController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/swalktech/cloud/cloudproviderpayment8002/controller/PayMicrometerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/swalktech/cloud/cloudproviderpayment8002/mapper/PayMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/swalktech/cloud/cloudproviderpayment8002/pojo/Pay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/swalktech/cloud/cloudproviderpayment8002/service/PayService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/swalktech/cloud/cloudproviderpayment8002/service/serviceImpl/PayServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/src/test/java/com/swalktech/cloud/cloudproviderpayment8002/CloudProviderPayment8002ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8003/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8003/src/main/java/com/swalktech/cloud/cloudproviderpayment8003/CloudProviderPayment8003Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8003/src/main/java/com/swalktech/cloud/cloudproviderpayment8003/controller/PayCircuitController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8003/src/main/java/com/swalktech/cloud/cloudproviderpayment8003/controller/PayController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8003/src/main/java/com/swalktech/cloud/cloudproviderpayment8003/controller/PayGatewayController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8003/src/main/java/com/swalktech/cloud/cloudproviderpayment8003/controller/PayMicrometerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8003/src/main/java/com/swalktech/cloud/cloudproviderpayment8003/mapper/PayMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8003/src/main/java/com/swalktech/cloud/cloudproviderpayment8003/pojo/Pay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8003/src/main/java/com/swalktech/cloud/cloudproviderpayment8003/service/PayService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8003/src/main/java/com/swalktech/cloud/cloudproviderpayment8003/service/serviceImpl/PayServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8003/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8003/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8003/src/test/java/com/swalktech/cloud/cloudproviderpayment8003/CloudProviderPayment8003ApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PerforceDirect.Settings">
+    <option name="CHARSET" value="无" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2hzJCsToI3RHqMqswTnSUkQfBPO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "HTTP 请求.CloudConsumerOrder8000Application | #1.executor": "Run",
+    "HTTP 请求.CloudConsumerOrder8000Application | #2.executor": "Run",
+    "HTTP 请求.CloudConsumerOrder8000Application | #3.executor": "Run",
+    "HTTP 请求.CloudProviderPayment8001Application | #1.executor": "Run",
+    "HTTP 请求.CloudProviderPayment8001Application | #2.executor": "Run",
+    "HTTP 请求.generated-requests | #15.executor": "Run",
+    "Maven.CloudDemo [clean].executor": "Run",
+    "Maven.cloud-common [clean].executor": "Run",
+    "Maven.cloud-consumer-order8000 [clean].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.CloudCommonApplication.executor": "Run",
+    "Spring Boot.CloudConsumerOrder8000Application.executor": "Run",
+    "Spring Boot.CloudProviderPayment8001Application.executor": "Run",
+    "Spring Boot.CloudProviderPayment8002Application.executor": "Run",
+    "Spring Boot.CloudProviderPayment8003Application.executor": "Run",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "corretto-17",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "F:/gitClone/CloudDemo/cloud-provider-payment8003/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "项目",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "project.scopes",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\gitClone\CloudDemo\cloud-provider-payment8003\src\main\resources" />
+      <recent name="F:\gitClone\CloudDemo\cloud-provider-payment8002\src\main\resources" />
+      <recent name="F:\gitClone\CloudDemo\cloud-provider-payment8003\src\main\java\com\swalktech\cloud\cloudproviderpayment8003" />
+      <recent name="F:\gitClone\CloudDemo\cloud-provider-payment8002\src\main\java\com\swalktech\cloud\cloudproviderpayment8002" />
+      <recent name="F:\gitClone\CloudDemo\cloud-consumer-order8000\src\main\java\com\swalktech\cloud\cloudconsumerorder8000" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.swalktech.cloud.cloudproviderpayment8001.service" />
+      <recent name="com.swalktech.cloud.cloudproviderpayment8001.service.serviceImpl" />
+      <recent name="com.swalktech.cloud.cloudproviderpayment8001.mapper" />
+      <recent name="com.swalktech.cloud.cloudproviderpayment8001.pojo" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.CloudConsumerOrder8000Application">
+    <configuration name="CloudConsumerOrder8000Application | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/CloudConsumerOrder8000Application.http" requestIdentifier="#1" runType="运行单个请求">
+      <method v="2" />
+    </configuration>
+    <configuration name="CloudConsumerOrder8000Application | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/CloudConsumerOrder8000Application.http" index="2" requestIdentifier="#2" runType="运行单个请求">
+      <method v="2" />
+    </configuration>
+    <configuration name="CloudConsumerOrder8000Application | #3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/CloudConsumerOrder8000Application.http" index="3" requestIdentifier="#3" runType="运行单个请求">
+      <method v="2" />
+    </configuration>
+    <configuration name="CloudProviderPayment8001Application | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/CloudProviderPayment8001Application.http" index="2" requestIdentifier="#2" runType="运行单个请求">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #15" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="15" requestIdentifier="#15" runType="运行单个请求">
+      <method v="2" />
+    </configuration>
+    <configuration name="CloudCommonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="cloud-common" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.swalktech.cloud.cloudcommon.CloudCommonApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloudConsumerFeignOrder80Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="cloud-consumer-feign-order80" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.swalktech.cloud.cloudconsumerfeignorder80.CloudConsumerFeignOrder80Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloudConsumerOrder8000Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="cloud-consumer-order8000" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.swalktech.cloud.cloudconsumerorder8000.CloudConsumerOrder8000Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloudProviderPayment8001Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="cloud-provider-payment8001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.swalktech.cloud.cloudproviderpayment8001.CloudProviderPayment8001Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloudProviderPayment8002Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="cloud-provider-payment8002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.swalktech.cloud.cloudproviderpayment8002.CloudProviderPayment8002Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloudProviderPayment8003Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="cloud-provider-payment8003" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.swalktech.cloud.cloudproviderpayment8003.CloudProviderPayment8003Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP 请求.CloudConsumerOrder8000Application | #3" />
+        <item itemvalue="HTTP 请求.CloudConsumerOrder8000Application | #2" />
+        <item itemvalue="HTTP 请求.CloudConsumerOrder8000Application | #1" />
+        <item itemvalue="HTTP 请求.CloudProviderPayment8001Application | #2" />
+        <item itemvalue="HTTP 请求.generated-requests | #15" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17011.79" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17011.79" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="86cf5bf3-46ce-49a9-8a5d-d6230c598484" name="更改" comment="" />
+      <created>1718590848425</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1718590848425</updated>
+      <workItem from="1718590850307" duration="2068000" />
+      <workItem from="1718592936899" duration="210000" />
+      <workItem from="1718593155040" duration="3902000" />
+      <workItem from="1718610426248" duration="1349000" />
+      <workItem from="1718614439604" duration="453000" />
+      <workItem from="1718614897467" duration="1817000" />
+      <workItem from="1718616725608" duration="13436000" />
+      <workItem from="1718644882585" duration="8366000" />
+      <workItem from="1718680049181" duration="862000" />
+      <workItem from="1718680924380" duration="16557000" />
+    </task>
+    <task id="LOCAL-00001" summary="init">
+      <option name="closed" value="true" />
+      <created>1718591045908</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1718591045908</updated>
+    </task>
+    <task id="LOCAL-00002" summary="init">
+      <option name="closed" value="true" />
+      <created>1718591460185</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1718591460185</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

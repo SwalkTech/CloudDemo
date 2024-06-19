@@ -1,0 +1,17 @@
+server:
+  port: 8002
+spring:
+  application:
+    name: cloud-provider-order
+  data:
+    redis:
+      database: 0
+      port: 6379
+      host: 192.168.190.129
+  datasource:
+    url: jdbc:mysql://192.168.190.129:3307
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 123456
+
+

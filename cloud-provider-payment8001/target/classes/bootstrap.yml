@@ -1,0 +1,24 @@
+# 配置应用名称
+spring:
+  application:
+    name: cloud-provider-order
+  cloud:
+    # 配置Consul服务发现和配置中心
+    consul:
+      host: 192.168.190.129
+      port: 8500
+      discovery:
+        # 开启服务心跳检测
+        heartbeat:
+          enabled: true
+        service-name: cloud-provider-order
+      config:
+        # 配置文件名分隔符
+        profile-separator: '-'
+        # 配置文件格式
+        format: yaml
+        # 开启Consul配置中心支持
+        enabled: true
+  profiles:
+    # 激活的配置环境
+    active: dev
